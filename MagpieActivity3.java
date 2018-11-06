@@ -33,44 +33,44 @@ public class MagpieActivity3{
                         response = "Say something, please.";
                 }
                 
-                else if (findKeyword(statement, "no", 0) >= 0)
+                else if (findKeyword(statement, "no") >= 0)
 		{
 			response = "Why so negative?";
 		}
                 
-		else if (findKeyword(statement, "mother", 0) >= 0
-				|| findKeyword(statement, "father", 0) >= 0
-				|| findKeyword(statement, "sister", 0) >= 0
-				|| findKeyword(statement, "brother", 0) >= 0)
+		else if (findKeyword(statement, "mother") >= 0
+				|| findKeyword(statement, "father") >= 0
+				|| findKeyword(statement, "sister") >= 0
+				|| findKeyword(statement, "brother") >= 0)
 		{
 			response = "Tell me more about your family.";
 		}
                 
-                else if (findKeyword(statement, "cat", 0) >= 0 
-                                || findKeyword(statement, "dog", 0) >= 0)                       
+                else if (findKeyword(statement, "cat") >= 0 
+                                || findKeyword(statement, "dog") >= 0)                       
                 {
                         response = "Tell me more about your pets.";
                 }
                 
-                else if (findKeyword(statement, "Mr. Mulroy", 0) >= 0)                       
+                else if (findKeyword(statement, "Mr. Mulroy") >= 0)                       
                 {
                         response = "He sounds like a good teacher.";
                 }
                 
-                else if (findKeyword(statement, "school", 0) >= 0
-                                || findKeyword(statement, "classroom", 0) >= 0
-				|| findKeyword(statement, "teacher", 0) >= 0)                       
+                else if (findKeyword(statement, "school") >= 0
+                                || findKeyword(statement, "classroom") >= 0
+				|| findKeyword(statement, "teacher") >= 0)                       
                 {
                         response = "Tell me more about your school.";
                 }
                 
-                else if (findKeyword(statement, "driving", 0) >= 0
-                                || findKeyword(statement, "car", 0) >= 0)                      
+                else if (findKeyword(statement, "driving") >= 0
+                                || findKeyword(statement, "car") >= 0)                      
                 {
                         response = "I'd like to learn more about your vehicle.";
                 }
                 
-                else if (findKeyword(statement, "money", 0) >= 0)                    
+                else if (findKeyword(statement, "money") >= 0)                    
                 {
                         response = "We could all use a little more money.";
                 }
